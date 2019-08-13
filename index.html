@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <main>
+        <div id="container">
+            <h1>Tip Calculator</h1>
+            <hr>
+            <form>
+                <p>How much was your bill?</p><br>
+                <span style="color:green">Rs:</span> <input id="amount" type="number">
+                <p>How was your service?</p><br>
+                <select name="service" id="select">
+                    <option value="100">Best</option>
+                    <option value="80">Better</option>
+                    <option value="60">Good</option>
+                    <option value=30>Poor</option>
+                </select><br>
+                <p>How many peoples arre sharing the bill?</p>
+                <input id="people" type="number"> people <br>
+                <input type="button" id="btn" value="Calculate" onclick="myFunction()" )><br><br>
+                <!-- Tip amount: <p id="output"> -->
+                <!-- <span id="tip">0.00</span> -->
+                Tip Amount: <span style="color:green; font-size: .8em"> Rs:</span><input id="output" type="number">
+                </p>
+            </form>
+        </div>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

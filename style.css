@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("https://images.pexels.com/photos/628281/pexels-photo-628281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center no-repeat;
+align-items: center;
+background-size: cover;
+}
+button{
+    width: 70px;
+    height: 40px;
+    text-align: center
+}
+/* main    {display: table;} */
+
+#container{
+    background:yellow;
+    margin: 200px 400px;
+    width: 500px;
+    height: 400px;
+text-align: center;
+font-size: 25px;
+}
